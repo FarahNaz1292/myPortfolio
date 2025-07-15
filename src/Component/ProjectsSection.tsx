@@ -4,6 +4,7 @@ import { motion } from 'framer-motion';
 import { Card, CardContent } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
 import { ExternalLink, Github } from 'lucide-react';
+import Image from 'next/image';
 
 const projects = [
   {
@@ -11,9 +12,9 @@ const projects = [
     title: 'Donation Platform',
     description: 'Full-stack e-commerce solution with payment integration, inventory management, and admin dashboard.',
     image: "https://i.imgur.com/czociN6.jpg",
-    technologies: ['React', 'Node.js', 'MongoDB', 'Javascript' ],
-    liveDemo: "https://donationprojectfarah.netlify.app" ,
-    github: 'https://github.com/FarahNaz1292/donationFrontEnd.git', 
+    technologies: ['React', 'Node.js', 'MongoDB', 'Javascript'],
+    liveDemo: "https://donationprojectfarah.netlify.app",
+    github: 'https://github.com/FarahNaz1292/donationFrontEnd.git',
   },
   {
     id: 2,
@@ -21,14 +22,14 @@ const projects = [
     description: 'Shows implementation of DOM Manipulation using Javascript.',
     image: "https://i.imgur.com/wuOHTsx.png",
     technologies: ['HTML', 'CSS', 'DOM Manupulation', 'JavaScript'],
-    liveDemo: "https://summer-sale-app200.netlify.app/" ,
+    liveDemo: "https://summer-sale-app200.netlify.app/",
     github: 'https://github.com/FarahNaz1292/My-shoppingPage/blob/main/index.html',
   },
   {
     id: 3,
     title: 'Recruiting App',
     description: 'Recruiting Companies for social media management with Job descriptions and job application process knowlegde.',
-    image:"https://i.imgur.com/JZYuVF5.png",
+    image: "https://i.imgur.com/JZYuVF5.png",
     technologies: ['React', 'React Router DOM', 'Tailwind CSS'],
     liveDemo: 'https://recruitingapp.netlify.app/',
     github: 'https://github.com/FarahNaz1292/recruitingapp',
@@ -90,8 +91,10 @@ export default function ProjectsSection() {
             >
               <Card className="group hover:shadow-lg hover:shadow-blue-100/50 transition-all duration-300 overflow-hidden border-purple-200">
                 <div className="relative overflow-hidden">
-                  <img
+                  <Image
                     src={project.image}
+                    width={240}
+                    height={160}
                     alt={project.title}
                     className="w-full h-48 object-cover transition-transform duration-300 group-hover:scale-105"
                   />

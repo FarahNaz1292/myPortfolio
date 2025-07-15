@@ -67,7 +67,7 @@ const handleSubmit = async (e: React.FormEvent) => {
         >
           <h2 className="text-3xl sm:text-4xl font-bold mb-4 text-purple-900">Get In Touch</h2>
           <p className="text-muted-foreground text-lg max-w-2xl mx-auto">
-            Ready to start your next project? Let's discuss how we can work together
+            Ready to start your next project? Let&apos;s discuss how we can work together
           </p>
         </motion.div>
 
@@ -177,13 +177,13 @@ const handleSubmit = async (e: React.FormEvent) => {
 
             <Card className="border-purple-200 hover:shadow-lg hover:shadow-blue-100/50 transition-all duration-300">
               <CardHeader>
-                <CardTitle className="text-purple-800">Let's Build Something Great</CardTitle>
+                <CardTitle className="text-purple-800">Let&apos;s Build Something Great</CardTitle>
               </CardHeader>
               <CardContent>
                 <p className="text-muted-foreground mb-4">
-                  I'm always excited to work on new projects and collaborate with amazing people. 
+                  I&apos;m always excited to work on new projects and collaborate with amazing people. 
                   Whether you have a specific idea in mind or need guidance on your next web application, 
-                  I'm here to help bring your vision to life.
+                  I&apos;m here to help bring your vision to life.
                 </p>
                 <p className="text-muted-foreground">
                   I typically respond within 24 hours and offer free initial consultations 

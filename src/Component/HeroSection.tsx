@@ -4,13 +4,13 @@ import { motion } from 'framer-motion';
 import { ArrowRight, Download } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 
-export default function HeroSection({ text }: { text: string }) {
+export default function HeroSection() {
     const scrollToContact = () => {
         const element = document.querySelector('#contact');
         if (element) {
             element.scrollIntoView({ behavior: 'smooth' });
         }
-        const letters = Array.from(text);
+    
     };
 
     return (
@@ -30,7 +30,7 @@ export default function HeroSection({ text }: { text: string }) {
                             transition={{ delay: 0.2, duration: 0.8 }}
                             className="text-4xl sm:text-5xl lg:text-6xl font-bold leading-tight"
                         >
-                            Hi, I'm Farah Naz{' '}
+                            Hi, I&apos;m Farah Naz{' '}
                             <span className="bg-gradient-to-r from-purple-900 to-fuchsia-500 bg-clip-text text-transparent">
                                 MERN Stack Developer
                             </span>
