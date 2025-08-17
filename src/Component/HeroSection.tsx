@@ -32,7 +32,7 @@ export default function HeroSection() {
                         >
                             Hi, I&apos;m Farah Naz{' '}
                             <span className="bg-gradient-to-r from-purple-900 to-fuchsia-500 bg-clip-text text-transparent">
-                                MERN Stack Developer
+                                Full Stack Developer
                             </span>
                         </motion.h1>
                         <motion.p
@@ -58,7 +58,7 @@ export default function HeroSection() {
                                 Download Resume
                                 <Download className="ml-2 h-4 w-4 transition-transform group-hover:translate-y-1" />
                             </Button> */}
-                            <a href="/assets/resume_farahNaz.pdf" download>
+                            <a href="/assets/Resume.pdf" download>
                                 <Button variant="outline" className="group border-violet-400 text-violet-900 hover:bg-violet-400">
                                     Download Resume
                                     <Download className="ml-2 h-4 w-4 transition-transform group-hover:translate-y-1" />

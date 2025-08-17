@@ -32,7 +32,7 @@ export default function AboutSection() {
               <h3 className="text-2xl font-semibold mb-6 text-purple-800">My Story</h3>
               <div className="space-y-4 text-muted-foreground">
                 <p>
-                  With over 3 years of experience in frontend development, I specialize in building user-friendly, modern web applications. I’ve also gained backend experience, allowing me to approach development with a full-stack mindset.
+                  With over 1 and a half years of experience in frontend development, I specialize in building user-friendly, modern web applications. I’ve also gained backend experience, allowing me to approach development with a full-stack mindset.
                 </p>
                 <p>
                   In my journey as a Full Stack Developer, I&apos;ve mastered the MERN stack — MongoDB for scalable and flexible data management, Express.js for building efficient APIs and server-side logic, React.js for crafting responsive and dynamic user interfaces, and Node.js for developing robust and high-performance backend systems. This holistic approach to development enables me to build applications that are not only visually compelling but also structurally sound and scalable.
